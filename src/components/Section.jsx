@@ -1,0 +1,8 @@
+export default function Section({ title, children }) {
+  return (
+    <section style={{ marginBottom: 30 }}>
+      <h2>{title}</h2>
+      {children}
+    </section>
+  );
+}
